@@ -1,11 +1,48 @@
-.flex{
-    max-width: 300px;
-    padding: 10px;
-    border: 2px solid black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: nome;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    background-color: #F8F8FF	;
+    margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: center;
 }
 
-.item{
-    background-color: aqua;
-    margin: 5px;
+.instagram-geral{
+    display: flex;
+    align-items: center; /*eixo x*/
+    align-content: center;/*eixo y*/
+    
+}
+.coluna-phone{
+    display: flex;
+    align-items: center; /*eixo x*/
+    justify-content: center;
+    width: 50%;
+}
+
+.logoInstagram{
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.bloco2-cadastro{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+
 }
